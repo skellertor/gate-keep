@@ -4,6 +4,7 @@
   "description": "IP address filter",
   "main": "index.js",
   "dependencies": {
+    "ipaddr.js": "^1.2.0",
     "js-yaml": "^3.7.0",
     "underscore": "^1.8.3"
   },
