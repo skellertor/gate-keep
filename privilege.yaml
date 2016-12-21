@@ -2,3 +2,4 @@ whitelist:
   - 127.0.0.1
 
 blacklist:
+  - 192.168.0.4
