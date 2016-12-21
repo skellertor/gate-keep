@@ -1,4 +1,4 @@
-# Express middleware for white/black listing IP Addresses
+## Express middleware for white/black listing IP Addresses
 
 ### Getting Started
 ---
