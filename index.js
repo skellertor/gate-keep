@@ -17,12 +17,6 @@ module.exports.black = {
     }
 };
 
-module.exports.priviledge = function (req, res, next) {
-    if(_.contains(doc.blacklist, req.ip)) return next(new Error('Access Denied'));
-    if(_.contains(doc.whitelist, req.ip)) return next();
-    return next(new Error('Access Denied'));
-};
-
 module.exports.setpriviledge = function (path) {
     doc = yaml.safeLoad(fs.readFileSync(path, 'utf8'));
     return;
