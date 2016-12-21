@@ -1,0 +1,26 @@
+{
+  "name": "gate-keep",
+  "version": "1.0.0",
+  "description": "IP address filter",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "js-yaml": "^3.7.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skellertor/gate-keep.git"
+  },
+  "keywords": [
+    "ip",
+    "whitelist",
+    "blacklist"
+  ],
+  "author": "skellertor",
+  "license": "ISC"
+}
