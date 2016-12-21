@@ -19,9 +19,9 @@ var express = require('express'),
     path = require('path');
     
 var gate-keep = require('gate-keep');
-gate-keep.setPriviledge(path.join(__dirname, 'priviledge.yaml')); //pass absolute path to .yaml allowed/blocked file
+gate-keep.setpriviledge(path.join(__dirname, 'priviledge.yaml')); //pass absolute path to .yaml allowed/blocked file
 
-app.use(gate-keep.white.priviledge); //Allows only the specified IP Address in priviledge.yaml `whitelist` section
+app.use(gate-keep.white.privilege); //Allows only the specified IP Address in priviledge.yaml `whitelist` section
 // Other configurations include
 // app.use(gate-keep.black.priviledge); Allows access to all IP Addresses except those listed in priviledge.yaml `blacklist` section
 
