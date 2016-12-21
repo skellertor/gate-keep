@@ -15,7 +15,8 @@
 ### Example
 ```javascript
 var express = require('express'),
-    app = express();
+    app = express(),
+    path = require('path');
     
 var gate-keep = require('gate-keep');
 gate-keep.setPriviledge(path.join(__dirname, 'priviledge.yaml')); //pass absolute path to .yaml allowed/blocked file
