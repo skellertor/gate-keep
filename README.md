@@ -24,7 +24,7 @@ gate-keep.setPriviledge(path.join(__dirname, 'priviledge.yaml')); //pass absolut
 app.use(gate-keep.white.priviledge); //Allows only the specified IP Address in priviledge.yaml `whitelist` section
 // Other configurations include
 // app.use(gate-keep.black.priviledge); Allows access to all IP Addresses expect those listed in priviledge.yaml `blacklist` section
-// app.use(gate-keep.priviledge); Allows access to all IP Addresses except those listed in priviledge.yaml `blacklist` section
+// app.use(gate-keep.priviledge); Allows access to only IP Addresses listed in priviledge.yaml `whitelist` section and blocks access to IP addresses listed under `blacklist`
 
 /****************
  * Other stuff **
