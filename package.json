@@ -1,6 +1,6 @@
 {
   "name": "gate-keep",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "IP address filter",
   "main": "index.js",
   "dependencies": {
